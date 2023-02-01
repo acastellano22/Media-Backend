@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', true);
+
+console.log("CONNECTING TO SERVER");
 mongoose.connect('mongodb://127.0.0.1:27017/MediaBackend')
     .then(() => {
         console.log("DB CONNECTED");
