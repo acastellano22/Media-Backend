@@ -2,5 +2,22 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.9.0"
-  }
+  },
+  "name": "media-backend",
+  "version": "1.0.0",
+  "description": "Backend for Salesianum Media website",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acastellano22/Media-Backend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acastellano22/Media-Backend/issues"
+  },
+  "homepage": "https://github.com/acastellano22/Media-Backend#readme"
 }
